@@ -3,5 +3,5 @@ input_files: fast_1_e8_747_e7_692_000.smt2
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: inconsistent
+- expected_verdict: false
   property_file: ../../properties/check-sat.prp
