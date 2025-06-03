@@ -3,5 +3,5 @@ input_files: mapping_1.sol_0_000.smt2
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: false
+- expected_verdict: inconsistent
   property_file: ../../../properties/check-sat.prp
