@@ -1,0 +1,7 @@
+format_version: '2.0'
+
+input_files: 'sqrt_Householder_constant.c.p+cfa-reducer.smt2'
+
+properties:
+  - property_file: ../properties/unreach-call.prp
+    expected_verdict: true
